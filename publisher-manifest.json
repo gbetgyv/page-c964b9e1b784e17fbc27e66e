@@ -1,0 +1,123 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "8dee71574721f0095448add1",
+  "owner": "gbetgyv",
+  "repo": "page-c964b9e1b784e17fbc27e66e",
+  "title": "365VPN",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "c964b9e1b784e17fbc27e66e",
+      "a": "365VPN",
+      "b": "",
+      "entity": "365VPN",
+      "brand": "365VPN",
+      "separator": "",
+      "path": "index.html",
+      "hash": "2905897422b983a7f1481b957de66417602841bb729d5a4721927df4c43849d5",
+      "content": {
+        "keyword1": "365VPN",
+        "keyword2": "",
+        "primary_entity": "365VPN",
+        "plans": [
+          {
+            "name": "基础版",
+            "price": "¥15/月",
+            "annual_price": "按年付仅需 ¥150/年",
+            "features": [
+              "每月 100GB 极速流量",
+              "支持 3 台设备同时在线",
+              "解锁基础流媒体",
+              "普通线路节点池"
+            ]
+          },
+          {
+            "name": "旗舰版",
+            "price": "¥35/月",
+            "annual_price": "按年付仅需 ¥350/年",
+            "featured": true,
+            "features": [
+              "每月 300GB 极速流量",
+              "支持 5 台设备同时在线",
+              "全节点原生流媒体解锁",
+              "IPLC 专线游戏加速优化",
+              "7x24 优先工单支持"
+            ]
+          },
+          {
+            "name": "团队版",
+            "price": "¥85/月",
+            "annual_price": "按年付仅需 ¥850/年",
+            "features": [
+              "每月 1000GB 极速流量",
+              "支持 20 台设备同时在线",
+              "VIP 专属高带宽节点",
+              "支持企业定制路由",
+              "专属客户经理服务"
+            ]
+          }
+        ],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "365VPN提供稳定VPN服务，支持多设备加速，解锁流媒体，官网下载入口。基础版、旗舰版、团队版可选。",
+          "AI_DESCRIPTION": "365VPN提供稳定VPN服务，支持多设备加速，解锁流媒体，官网下载入口。基础版、旗舰版、团队版可选。"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n    \n    \n    \n    \n    \n    \n    \n    \n    <style>\n        :root {\n            --coral: #FF6B6B;\n            --warm-white: #F8F5F2;\n            --dark: #2C3E50;\n        }\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n        body {\n            font-family: system-ui, -apple-system, sans-serif;\n            background-color: var(--warm-white);\n            color: #333;\n            line-height: 1.7;\n        }\n        header {\n            background: white;\n            box-shadow: 0 2px 10px rgba(0,0,0,0.1);\n            position: sticky;\n            top: 0;\n            z-index: 10;\n        }\n        nav {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 1rem;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n        .logo {\n            font-size: 1.8rem;\n            font-weight: bold;\n            color: var(--coral);\n        }\n        .nav-links {\n            display: flex;\n            gap: 2rem;\n        }\n        .nav-links a {\n            color: #333;\n            text-decoration: none;\n            font-weight: 500;\n        }\n        .hero {\n            background: linear-gradient(to bottom, #fff 0%, var(--warm-white) 100%);\n            text-align: center;\n            padding: 4rem 1rem;\n        }\n        .hero h2 {\n            font-size: 3rem;\n            color: var(--dark);\n            margin-bottom: 1rem;\n        }\n        .cta-button {\n            background: var(--coral);\n            color: white;\n            padding: 1rem 2rem;\n            border: none;\n            border-radius: 50px;\n            font-size: 1.1rem;\n            cursor: pointer;\n            margin: 1rem;\n        }\n        .section {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 3rem 1rem;\n        }\n        h1 {\n            font-size: 2.8rem;\n            text-align: center;\n            color: var(--dark);\n            margin-bottom: 1rem;\n        }\n        h2 {\n            font-size: 2rem;\n            color: var(--dark);\n            margin-bottom: 1.5rem;\n            border-bottom: 2px solid var(--coral);\n            padding-bottom: 0.5rem;\n        }\n        .intro {\n            max-width: 800px;\n            margin: 0 auto;\n            text-align: center;\n        }\n        .plans-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n            gap: 1.5rem;\n        }\n        .plan-card {\n            background: white;\n            border-radius: 12px;\n            padding: 2rem;\n            box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n            transition: transform 0.3s;\n        }\n        .plan-card:hover {\n            transform: translateY(-5px);\n        }\n        .plan-name {\n            font-size: 1.5rem;\n            color: var(--coral);\n            margin-bottom: 1rem;\n        }\n        .plan-price {\n            font-size: 2.2rem;\n            font-weight: bold;\n            color: #333;\n        }\n        .plan-features {\n            list-style: none;\n            padding: 0;\n        }\n        .plan-features li {\n            padding: 0.75rem 0;\n            border-bottom: 1px solid #eee;\n        }\n        .plan-features li:last-child {\n            border-bottom: none;\n        }\n        .featured {\n            border: 3px solid var(--coral);\n        }\n        .faq-section {\n            background: white;\n            border-radius: 12px;\n            padding: 2rem;\n            box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n        }\n        details {\n            margin-bottom: 1.5rem;\n        }\n        summary {\n            font-size: 1.2rem;\n            font-weight: 600;\n            color: var(--dark);\n            cursor: pointer;\n            list-style: none;\n        }\n        summary::-webkit-details-marker {\n            display: none;\n        }\n        .download-btn {\n            background: var(--coral);\n            color: white;\n            padding: 0.8rem 1.5rem;\n            border-radius: 50px;\n            text-decoration: none;\n            display: inline-block;\n            margin: 1rem 0;\n        }\n        footer {\n            text-align: center;\n            padding: 2rem;\n            background: #2C3E50;\n            color: white;\n        }\n        @media (max-width: 768px) {\n            .nav-links {\n                flex-direction: column;\n                gap: 1rem;\n            }\n            .hero h2 {\n                font-size: 2.2rem;\n            }\n        }\n    </style>\n\n\n    <header>\n        <nav>\n            <div class=\"logo\">365VPN</div>\n            <div class=\"nav-links\">\n                <a href=\"#intro\">首页</a>\n                <a href=\"#plans\">套餐</a>\n                <a href=\"#faq\">常见问题</a>\n                <a href=\"#download\">下载</a>\n            </div>\n        </nav>\n    </header>\n    <main>\n        <section class=\"hero\">\n            <h1>365VPN</h1>\n            <p>稳定高效的VPN加速器，轻松解锁全球网络</p>\n            \n            \n        </section>\n        <section id=\"intro\" class=\"section\">\n            <h2>品牌简介</h2>\n            <p>365VPN 是一款专注于网络加速的服务，旨在为用户提供快速、稳定、安全的互联网连接。无论您是在家办公、浏览流媒体，还是进行远程工作，我们的VPN服务都能让您畅享无忧体验。</p>\n        </section>\n        <section id=\"use\" class=\"section\">\n            <h2>使用场景</h2>\n            <ul>\n                <li>家庭网络加速，解锁海外内容</li>\n                <li>企业远程办公，支持多设备连接</li>\n                <li>游戏加速，优化网络延迟</li>\n                <li>旅行出差，稳定线路保障</li>\n            </ul>\n        </section>\n        <section id=\"plans\" class=\"section\">\n            <h2>套餐选择</h2>\n            {{PLANS_HTML}}\n        </section>\n        <section id=\"download\" class=\"section\">\n            <h2>客户端下载</h2>\n            {{CLIENTS_HTML}}\n            <a href=\"#\" class=\"download-btn\">下载 Windows 客户端</a>\n            <a href=\"#\" class=\"download-btn\">下载 macOS 客户端</a>\n            <a href=\"#\" class=\"download-btn\">下载 Android 客户端</a>\n        </section>\n        <section id=\"faq\" class=\"section\">\n            <h2>常见问题</h2>\n            <div class=\"faq-section\">\n                <details>\n                    <summary>1. 什么是365VPN？</summary>\n                    <p>365VPN是一款专业的VPN加速服务，提供稳定节点和隐私保护，帮助您安全访问互联网。</p>\n                </details>\n                <details>\n                    <summary>2. 如何选择套餐？</summary>\n                    <p>基础版适合个人使用，旗舰版适合需要高流量和流媒体解锁的用户，团队版适合企业用户。</p>\n                </details>\n                <details>\n                    <summary>3. 支持哪些设备？</summary>\n                    <p>支持Windows、macOS、Android、iOS等多种主流设备。</p>\n                </details>\n                <details>\n                    <summary>4. 如何下载客户端？</summary>\n                    <p>访问官网下载页面，点击对应平台下载最新版本。</p>\n                </details>\n                <details>\n                    <summary>5. 节点加速原理是什么？</summary>\n                    <p>通过IPLC专线优化线路，提供高速低延迟的连接。</p>\n                </details>\n                <details>\n                    <summary>6. 支持流媒体解锁吗？</summary>\n                    <p>旗舰版及以上套餐支持Netflix、YouTube等主流平台解锁。</p>\n                </details>\n                <details>\n                    <summary>7. 隐私保护如何？</summary>\n                    <p>采用AES-256加密，零日志政策，确保您的上网活动完全隐私。</p>\n                </details>\n            </div>\n        </section>\n    </main>\n    <footer>\n        <p>© 2024 365VPN. 所有权利已保留。</p>\n        <p>官网：https://365vpn.com</p>\n    </footer>\n\n",
+          "hash": "f8d0b9fdf45fc41c08cf76ddc77e26e182ba908d0aee705aa6b9c503de652d68",
+          "seo": {
+            "title": "365VPN - 高效VPN加速器，稳定节点加速，官网下载",
+            "keywords": "365VPN, VPN加速器, 机场, 订阅, 客户端下载, 网络加速",
+            "description": "365VPN提供稳定VPN服务，支持多设备加速，解锁流媒体，官网下载入口。基础版、旗舰版、团队版可选。"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "qfknj.cn",
+    "host": "c.qfknj.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804"
+  },
+  "friendlinks": [
+    {
+      "host": "qfknj.cn",
+      "url": "https://qfknj.cn/",
+      "label": "西数(WestData)",
+      "apex": "qfknj.cn",
+      "kind": null,
+      "identity": "cwcqqj/page-799dafde6b9b02b0b0ee6d98"
+    },
+    {
+      "host": "00ah6.cn",
+      "url": "https://00ah6.cn/",
+      "label": "SSHUB",
+      "apex": "00ah6.cn",
+      "kind": null,
+      "identity": "erjwrgjj/page-6141714b7a0f264666643c94"
+    },
+    {
+      "host": "01kmph.cn",
+      "url": "https://01kmph.cn/",
+      "label": "WeGo",
+      "apex": "01kmph.cn",
+      "kind": null,
+      "identity": "wbwftxwku/page-680ee6fa2562d6d22ba5a121"
+    }
+  ],
+  "file_hashes": {
+    "index.html": "13453bdb3268f79d52536da47af3ed9541e5299608f8e1438cba197dda09d3b6",
+    "sitemap.xml": "4c50c38c91fc66031b0a4f2fd5783aff70941a7b982a7838e6cfe616b15372ec",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "196018a63d588c640877b35f265f8f3bb6d5ff3ae3496a1acf6228a707e8c1fc",
+    "robots.txt": "a02c6d7908d04db486ac404a712a5c789d796b9c54569b50f2345c58bb57b4f4",
+    "3699129facfc21e2fdd0484a16997cf6.txt": "1ef3de6db692a4b9d8fa3051e2ebaa89eaeeaae97bc37db58883a95125e8be8c"
+  },
+  "revision": "b8ceaa06d486263f46341ea796c2d4858aaedb18e1b9bcb8a7a6cc33435dbc72"
+}
